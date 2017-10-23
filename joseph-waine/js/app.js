@@ -37,7 +37,6 @@ function displayPics(){
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // When rando's declaration is set to let instead of var, it is only scoped within the current while loop code block, so it cannot be called upon outside of it. When you console.log rando within the while loop, you will not get a reference error.
-
   console.log(viewed)
 
   // To the DOM and beyond!
